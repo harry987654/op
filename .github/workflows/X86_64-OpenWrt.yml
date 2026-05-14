@@ -17,6 +17,9 @@ env:
   FIRMWARE_TAG: X86_64
   TZ: Asia/Shanghai
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+  permissions:
+  contents: write
+  pull-requests: write
 
 jobs:
   Build:
